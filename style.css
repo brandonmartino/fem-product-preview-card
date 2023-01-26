@@ -1,0 +1,27 @@
+html {
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f2ebe3;
+}
+/*-- -------------------------- -->
+<---          Preview card      -->
+<--- -------------------------- -*/
+/* Mobile */
+@media only screen and (min-width: 0em) {
+  #preview-card {
+    padding: 2.14285714em 0;
+  }
+  #preview-card .card {
+    background-color: #ffffff;
+    width: 21.42857143em;
+    margin: 0.57142857em;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    border-radius: 0.57142857em;
+  }
+  #preview-card .card picture img {
+    width: 21.42857143em;
+    height: 16.07142857em;
+    border-radius: 0.57142857em 0.57142857em 0 0;
+  }
+}
