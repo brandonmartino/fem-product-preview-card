@@ -14,6 +14,7 @@ body {
   display: grid;
   place-content: center;
   margin: 1rem;
+  min-height: 100vh;
 }
 img,
 picture {
@@ -99,5 +100,8 @@ picture {
   }
   #preview-card .card .content {
     padding: 2rem;
+  }
+  footer {
+    margin-top: auto;
   }
 }
