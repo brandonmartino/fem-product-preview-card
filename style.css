@@ -101,7 +101,31 @@ picture {
   #preview-card .card .content {
     padding: 2rem;
   }
-  footer {
-    margin-top: auto;
+}
+/* Desktop */
+@media only screen and (min-width: 1280px) {
+  #preview-card .card {
+    -webkit-transition-duration: .5s;
+            transition-duration: .5s;
+    -webkit-transition-property: -webkit-box-shadow, -webkit-transform;
+    transition-property: -webkit-box-shadow, -webkit-transform;
+    transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform, -webkit-box-shadow, -webkit-transform;
+  }
+  #preview-card .card:hover,
+  #preview-card .card:focus,
+  #preview-card .card:active {
+    -webkit-transform: scale(1.02);
+            transform: scale(1.02);
+    -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
+            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
+  }
+  #preview-card .card .btn {
+    background-color: #3c8067;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  #preview-card .card .btn:hover {
+    background-color: #1c3b30;
   }
 }
