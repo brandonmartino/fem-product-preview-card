@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Product Preview Card](https://your-solution-url.com)
+- Solution URL: [Product Preview Card](https://www.frontendmentor.io/solutions/responsive-product-card-using-grid-and-transitions-on-desktop-13OA_nQ_UR)
 - Live Site URL: [Product Preview Card ](https://fem-product-preview-card-bmm.netlify.app/)
 
 ## My process
